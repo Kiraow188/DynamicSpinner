@@ -53,6 +53,7 @@ public class MainActivity extends AppCompatActivity {
                     String[] strNumbers = getResources().getStringArray(R.array.even_numbers);
                     alNumbers.addAll(Arrays.asList(strNumbers));
                 }
+                
             }
         });*/
 
@@ -71,6 +72,7 @@ public class MainActivity extends AppCompatActivity {
                     alNumbers.addAll(Arrays.asList(strNumbers));
                     spin2.setSelection(1);
                 }
+                aaNumbers.notifyDataSetChanged();
             }
 
             @Override
